@@ -1,15 +1,17 @@
+@myFavoriteColor: #903;
+@centerOfAttention: center;
+
 header {
     font-size: 2em;
-    color: #903;
-    text-align: center;
+    color: @myFavoriteColor;
+    text-align: @centerOfAttention;
     font-family: 'Rammetto One', cursive;
-
 }
 
 header:first-child:first-letter {
     font-family: 'Rammetto One', cursive;
-    text-align: center;
-    color: #903;
+    text-align: @centerOfAttention;
+    color: @myFavoriteColor;
     font-size: 60px;
     line-height: 60px;
     padding-top: 4px;
@@ -18,8 +20,8 @@ header:first-child:first-letter {
 }
 
 body {
-    text-align: center;
-    color: #903;
+    text-align: @centerOfAttention;
+    color: @myFavoriteColor;
     background-color: rgb(177, 223, 207);
     margin-bottom: 3em;
     font-family: 'Rammetto One', cursive;
@@ -42,7 +44,7 @@ p:nth-of-type(3){
 img{
     width: 600px;
     border:20px groove;
-    border-color: #903;
+    border-color: @myFavoriteColor;
 }
 
 href{
